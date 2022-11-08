@@ -1,0 +1,1 @@
+# Ucgende-alan-hesaplama
