@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+    //int a, ucgenincevresi;
+    //    int b, x;
+        double a,b,c, ucgenincevresi;
+
+        Scanner inp = new Scanner(System.in);
+
+        System.out.print("a kenarının uzunluğu:");
+        a = inp.nextInt();
+
+        System.out.print("b kenarının uzunluğu:");
+        b = inp.nextInt();
+
+        System.out.print("c kenarının uzunluğu:");
+        c = inp.nextInt();
+
+       // x = ((a*a) + (b*b));
+       // c =Math.sqrt(x);
+        //System.out.println("c kenarının uzunluğu:" + c);
+
+        double u = a + b + c;
+        ucgenincevresi = 2*u;
+       // u = (a + b + c)/2;
+        System.out.println("Üçgenin çevresi:" + ucgenincevresi);
+
+        double Alan = u*(u-a)*(u-b)*(u-c);
+        System.out.println("Alan*Alan:" + Alan);
+
+        }
+
+
+    }
